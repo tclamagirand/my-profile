@@ -1,0 +1,99 @@
+
+body{
+	background-color: #F9F9F9;
+	font-family: 'Zilla Slab', serif;
+	font-size:18;
+	font-color:#32323D;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size:25;
+	font-weight:300;
+	letter-spacing:1.5px;
+	color: #EF5466
+}
+
+h1 {
+	font-weight: 900;
+	color: #2D96C8
+}
+
+a {
+	color: #3957A8;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}	
+a:hover {
+	text-decoration: none;
+	color:#AA71DC;
+}
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+
+.card-white{
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin:20px 0px;
+	padding:30px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display:inline;
+	padding:0px 20px;
+}
+
+.list-inline i{
+	font-size: 50px
+}
+
+.btn-pink{
+	background-color: #EF5466;
+	border-radius: 5px;
+	padding: 10 10;
+	color:white;
+}
+.btn-pink:hover{
+	background-color: #2D96C8;
+	transition: 0.3s background-color ease;
+	color:white;
+}
+
+#introduction p {
+	margin-bottom: 30px
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+	.btn-pink{
+		padding: 0 0;
+	}
+}
